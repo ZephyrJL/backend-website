@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+					
+html {
+			
+	background-color: #fff;
+	font-weight: bold;
+	color: #07f79f;
+	font-family: comic sans ms;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: justify;
+	text-rendering: optimized;
+			
+}
+			
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/BgImageForInsert.jpg);
+	background-top: 0;
+	background-width: 100%;
+	background-height: 100%;
+	background-size: cover;
+	background-position: fixed;
+	height: 100vh;
+}
+.VisitorRecords {
+	position: absolute;
+	font-weight: bold;
+	float: left;
+	width: 900px;
+	top: 5%;
+	right: 40%;
+	font-size: 26px;
+}
+				
+.error {
+	color: #FF0000;
+}
+			
+.ReturnMain {
+		
+	float: right;
+	list-style: none;
+	margin-top: 20px;
+	margin-right: 50px;
+			
+}
+			
+.ReturnMain a {
+	display: inline-block;
+	margin-left: 40px;
+			
+}
+			
+.ReturnMain a, .ReturnMain a:link, .ReturnMain a:visited {
+			
+	text-decoration: none;
+	font-size: 25px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.6s;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 8px;
+	color: #0affad;
+	cursor: pointer;
+			
+}
+			
+.ReturnMain a:hover {
+			
+	border-bottom: 2px solid #08bf82;
+			
+}
+	
