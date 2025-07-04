@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+	
+html {
+    
+	background-color: #E8FFFF;
+	color: #db0000;
+	font-family: comic sans ms;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimized;
+	
+}
+	
+
+header {
+	background-image: url(../images/BgImage.jpg);
+	background-top: 0;
+	background-width: 100%;
+	background-height: 100%;
+	background-size: cover;
+	background-position: fixed;
+	height: 100vh;
+}
+	
+.DB-Nav {
+    
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+	margin-right: 50px;
+	
+}
+	
+.DB-Nav a {
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+	
+
+.DB-Nav a, .DB-Nav a:link, .DB-Nav a:visited {
+    
+	text-decoration: none;
+	font-size: 25px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.6s;
+	border-bottom: 2px solid transparent;
+	padding-bottom: 8px;
+	color: #0affad;
+	cursor: pointer;
+	
+	}
+	
+.DB-Nav a:hover {
+    
+	border-bottom: 2px solid #08bf82;
+	
+}
+	
+.introP {
+	text-align: justify;
+	position: absolute;
+	float: left;
+	width: 900px;
+	top: 16%;
+	right: 40%;
+	font-size: 26px;
+		
+}
+	
+.span-1-of-4 {
+	width: 22.8%; 
+}
+	
+.row {
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+	
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+	
+.description {
+	text-align: justify;
+}
+	
+h3 {
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 108%;
+	margin-bottom: 15px;
+}
+.box p {
+	font-size: 87%;
+	line-height: 145%;
+    
+}
+.box {
+	padding: 15px;
+}
